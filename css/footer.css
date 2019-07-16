@@ -1,0 +1,107 @@
+h1,h2,h3,h4,h5,h6,body,p,pre,ol,ul,dl,{margin:0;padding:0;}
+#index-footer{
+	background:black;
+	color:#fff;
+	}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+ul li{
+	list-style:none;
+}
+#index-footer-1{
+	width:1260px;
+	height:30px;
+	background:#333;
+	padding:25px;
+	margin-bottom:30px;
+}
+#index-footer-1 div{
+	width:20%;
+	height:30px;
+	text-align:center;
+	float:left;
+}
+#index-footer-1 span{
+	margin-left:15px;
+	font-size:14px;
+}
+#index-footer-1 div img{
+	width:26px;
+	vertical-align:bottom;
+}
+.footer-body{
+	float:left;
+}
+.footer-body p{
+	margin:0 30px 30px 30px;
+	padding:0 10px;
+	font-size:16px;
+	font-weight:bold;
+}
+#footer-body-1{
+	width:680px;
+	margin-left:100px;
+}
+#footer-body-2{
+	width:340px;
+	height:230px;
+	margin:42px;
+	padding-left:30px;
+	border-left:2px solid #252525;
+}
+#footer-body-3{
+	width:170px;
+	height:230px;
+	margin:42px;
+	border-left:2px solid #252525;
+}
+.footer-body div{
+	float:left;
+	margin:0;
+}
+.footer-body ul li{
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+}
+.footer-body ul{
+	margin:0;
+}
+.footer-title{
+	font-weight:bold;
+	margin:3px 0;
+}
+div ul.footer-list{
+	margin:22px 0;
+}
+#index-footer-2{
+	margin:100px;
+	border-top:2px solid #333;
+}
+#index-footer-2 div{
+	width:25%;
+	float:left;
+	padding:40px;
+	box-sizing:border-box;
+}
+#index-footer-2 div ul{
+	
+
+}
+#index-footer-2 div img{
+	width:30px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+#d1{clear:both;}
+
+

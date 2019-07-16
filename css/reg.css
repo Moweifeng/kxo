@@ -1,0 +1,122 @@
+body{
+	background-color:#f4f4f4;
+}
+input{
+	border:0;	
+	outline:none;
+	height: 38px;
+	line-height: 40px;
+}
+#reg-phone>input{
+	width:330px;
+}
+#reg-pass>input{
+	width:300px;
+}
+a{text-decoration:none}
+div #login_logo{
+	margin:50px 0;
+	width:160px
+}	
+form{
+	background-color:#fff;
+	width:600px;
+	height:500px;
+}
+#reg-head{
+	font-size:24px;
+	color:#1062b1;
+	padding:20px;
+}
+div button{
+	height:30px;
+	border:1px solid #ccc;
+	border-radius:40px;
+	font-size:16px;
+	padding:6px;
+}
+div.reg{
+	margin:30px;
+
+}
+img.reg-ico{
+	width:30px;
+	position:relative;
+	top:5px;
+	vertical-align: top;
+}
+#reg-phone,#reg-pass{
+	border:1px solid #ddd;
+	border-radius:50px;
+	height:40px;
+	width:400px;
+}
+#reg-code{
+	position:relative;
+	width:400px;
+	height:40px;
+}
+#reg-code-input{
+	width:260px;
+	border:1px solid #ddd;
+	height:40px;
+	border-radius:50px;
+	position:relative;
+	right:70px;
+}
+#reg-code-button{
+	width:130px;
+	color:#999;
+	height:40px;
+	position:relative;
+	bottom:40px;left:135px;
+	border:0;
+}
+#reg-code-input>input{
+	width:190px;
+}
+#reg-pro{
+	color:#d0d0d0;
+}
+#reg-pro>a{
+	color:#005bb0;
+}
+#reg-pro>input{
+	height:13px;
+}
+#reg-button{
+	width:400px;height:40px;
+	color:white;
+	background-color:black;
+}
+#login-a{
+	color:#005bb0;
+}
+
+
+.loginFont{
+	text-align:center;
+	font-size:26px;
+	padding:0px 16px;
+	color:black;
+}
+#login-footer{
+	color:#444;
+	font-size:18px;
+	margin-top:100px; 
+	background-color:#fff;
+}
+div div#footer1 a{
+	color:#444;
+	margin:0 5px;
+}
+div div#footer1 img{
+	margin:0 5px;
+}
+div div#footer2 a{
+	color:#444;
+}
+#footer2{
+	margin-top:20px;
+}
+
