@@ -89,7 +89,9 @@ li{list-style: none;}
 .list-title ul li a{
 	color:#444;
 }
-
+.header-list{ 
+	display: none;
+}
 
 
 
