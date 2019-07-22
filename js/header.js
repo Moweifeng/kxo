@@ -25,6 +25,17 @@ window.onload = function () {
             this.style.display = "none";
         }
     }
+    var text = document.querySelector('input');
+    text.onfocus=function(){
+        if(text.value=='search'){
+            text.value='';
+        }
+    }
+    text.onblur=function(){
+        if(text.value==''){
+            text.value='search';
+        }
+    }
 }
 
 
