@@ -1,3 +1,4 @@
 {
-    "open-in-browser.default": "Chrome"
+    "open-in-browser.default": "Chrome",
+    "liveServer.settings.port": 5501
 }

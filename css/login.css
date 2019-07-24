@@ -1,8 +1,22 @@
 		a{text-decoration:none;}
+		button,input{
+			
+		}
 		#login_logo{
 			width:250px;
 			margin-right:1100px;
 			margin-bottom:50px;
+		}
+		.login_login.input,.login_login.code{
+			margin:0;
+		}
+		.text1,.text2,.text3,.text4{
+			display: block;
+			padding-left:25px;
+			color:#a94442;
+			text-align:left;
+			width:100%;
+			height:22px;
 		}
 		#login_bg{
 			position:relative;
@@ -14,7 +28,7 @@
 			width:400px;
 			background-color:white;
 			padding:20px;
-			height:410px;
+			height:420px;
 		}
 		.unloginform{
 			display: none;
@@ -43,18 +57,24 @@
 			position:relative;
 			top:10px;
 		}
-		input:focus{
-			outline:none;
-		}
-		#input_phone{
+		#input_phone1,#input_phone2{
 			width:300px;
+			
 		}
-		#login_button{
+		#login_button1,#login_button2{
 			height:52px;
 			width:378px;
 			background-color:#555;
 			color:white;
 		}
+		#login_button1:disabled{
+			pointer-events: none;
+		}
+		#login_button2:disabled{
+			pointer-events: none;
+		}
+		#login_button1:hover{cursor:not-allowed;}
+		#login_button2:hover{cursor:not-allowed;}
 		#dynamic_code{
 			height:52px;
 			width:150px;
@@ -64,13 +84,14 @@
 			bottom:52px;
 			left:114px;
 		}	
-		#Input_code{
+		#dynamic_code:hover{cursor:not-allowed;}
+		#Input_code1,#Input_code2{
 			width:220px;
 			margin:0;
 			position:relative;
 			right:80px;
 		}
-		.unloginform #Input_code{
+		.unloginform #Input_code2{
 			width:100%;
 			margin:0;
 			box-sizing: border-box;
