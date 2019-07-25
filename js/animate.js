@@ -6,10 +6,10 @@
             if(obj.offsetLeft == target){
                 //设置定时器结束条件
                 clearInterval(obj.timer);
-                //设置回调函数
-                if(callback){
-                    callback();
-                }
+            }
+            //设置回调函数
+            if(callback!=null){
+                callback();
             }
             obj.style.left = obj.offsetLeft + step + 'px';
         },15);
