@@ -1,4 +1,8 @@
 {
     "open-in-browser.default": "Chrome",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.tabSize": 2,
+    "editor.autoIndent": false,
+    "workbench.tree.indent": 2
 }
