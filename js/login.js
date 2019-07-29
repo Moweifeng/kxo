@@ -28,11 +28,13 @@ window.onload = function(){
     console.log(inputcode.value,password.value);
     var c=0;
     phone1.onblur = function(){
+        let i = this.value.search(/1[3-9]\d{9}/);
+        console.log(i);
         if(this.value==''){
             text1.innerHTML = '手机号码不能为空';
-        }else if(this.value.length!==11){
+        }else if(i==-1){
             text1.innerHTML = '手机号码是11位数字，请重新输入';
-        }else{
+        }else if(i!=-1){
             text1.innerHTML = '';
             c=11;
         }

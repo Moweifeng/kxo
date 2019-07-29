@@ -1,6 +1,6 @@
 		a{text-decoration:none;}
 		button,input{
-			
+			outline: none;
 		}
 		#login_logo{
 			width:250px;

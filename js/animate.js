@@ -8,7 +8,7 @@
                 clearInterval(obj.timer);
             }
             //设置回调函数
-            if(callback!=null){
+            if(callback){
                 callback();
             }
             obj.style.left = obj.offsetLeft + step + 'px';

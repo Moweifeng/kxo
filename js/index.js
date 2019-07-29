@@ -26,7 +26,7 @@ window.onload = function(){
             console.log(flag)
             if(flag){
                 flag = false;//关闭节流阀
-                if(num==ul.children.length-2){
+                if(num==ul.children.length-1){
                     ul.style.left = 0;
                     num = 0;
                 }
@@ -34,7 +34,13 @@ window.onload = function(){
                      btn_ul.children[j].className = '';
                 }
                 num++;
-                btn_ul.children[num].className = 'current';
+                if(num==ul.children.length-1){
+                     btn_ul.children[0].className = 'current'
+                }else{
+                    btn_ul.children[num].className = 'current';
+                }
+                console.log(num,ul.children.length);
+                
                 // console.log(num);
                 animate(ul,-num*banner.offsetWidth,function(){
                     flag = true;//打开节流阀
